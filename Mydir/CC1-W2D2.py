@@ -1,0 +1,17 @@
+print("Enter your Details:")
+name = input("Enter your Name:")
+age = int(input("Enter your Age:"))
+number = int(input("Enter your Mobile number:"))
+city = input("Enter your City:")
+
+print("The details are as follows:")
+print("Your name is",name)
+print("You are", str(age) + "years old")
+print("Your mobile number is",number)
+print("You are from", str(city) + ",Maharashtra")
+
+print("Let's see the type of the variables:")
+print(type(name))
+print(type(age))
+print(type(number))
+print(type(city))
